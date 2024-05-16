@@ -1,0 +1,92 @@
+body {
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.main-section {
+    max-width: 600px;
+    width: 90%;
+    margin: 30px auto;
+}
+
+.add-section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-section input[type="text"] {
+    width: calc(100% - 20px);
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.add-section button {
+    width: 100%;
+    height: 40px;
+    background-color: #0088FF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-section button:hover {
+    background-color: #0054a8;
+}
+
+.show-todo-section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item h2 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+.todo-item small {
+    font-size: 14px;
+    color: #666;
+}
+
+.remove-to-do {
+    float: right;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #e74c3c;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.remove-to-do:hover {
+    background: #c0392b;
+}
+
+.checked h2{
+    text-decoration: line-through;
+    color: #999;
+}
